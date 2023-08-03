@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.8986bff4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script src="/styles.8986bff4.js"></script></head>
+<body class="mainContainer">
+    <header class="headerContainer">
+        <div class="title">
+            <h1>ContaTags &lt;/&gt;</h1>
+        </div>
+        <div class="socialicons">
+            <div class="socialIcon">
+                <a href="https://www.linkedin.com/in/sabrina-larrayner-366059238/">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div class="socialIcon">
+                <a href="https://wa.me/5565993174130">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="centeredContainer">
+            <label for="textoInput">Inserir url <span class="hintIcon" title="Ao inserir a URL, o sistema realizará a contagem de cada tag presente dentro de uma página."><i class="fas fa-info-circle"></i></span></label>
+            <div class="inputUrl">
+                <input id="TagsUrl" type="text" placeholder="Ex: https://www.exemplo.com.br" name="textoInput">
+                <button id="submitButton" onclick="TagsUrl()">Pesquisar</button>
+                
+            </div>  
+            <div class="alertInformation">
+                <span>Por favor, insira uma url válida.</span>
+            </div>    
+        </div>
+        <section id="amountTags" class="amountTags">
+            <div class="amountTagsItem">
+                <h2 class="insertedTags">URL inserida: https://www.exemplo.com</h2>
+                <div class="Resultags">
+                    <div class="resultTagsContainer">
+                        <span>Resultado para essa pesquisa:</span>
+                        <div id="resultTags">
+                  
+                        </div>
+                    </div>
+                    <i class="fas fa-trash-alt delete-icon" title="Remover" onclick="removeCard()"></i>
+                </div>
+                
+            </div>    
+        </section>
+        
+        
+    </main>
+    <script src="/ufmt_projeto.e31bb0bc.js"></script>
+
+</body>
+</html>
